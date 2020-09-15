@@ -15,8 +15,8 @@
     "cli",
     "translation"
   ],
-  "homepage": "https://github.com/twoheartliu/node-two-do#readme",
-  "repository": "https://github.com/twoheartliu/node-two-do",
+  "homepage": "https://github.com/twoheartliu/node-simple-dict#readme",
+  "repository": "https://github.com/twoheartliu/node-simple-dict",
   "dependencies": {
     "@types/md5": "^2.2.0",
     "@types/node": "^14.10.1",
