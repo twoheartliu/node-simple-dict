@@ -11,6 +11,10 @@
   "license": "MIT",
   "author": "twoheart",
   "description": "CLI for translation",
+  "keywords": [
+    "cli",
+    "translation"
+  ],
   "homepage": "https://github.com/twoheartliu/node-two-do#readme",
   "repository": "https://github.com/twoheartliu/node-two-do",
   "dependencies": {

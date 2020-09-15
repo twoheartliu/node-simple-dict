@@ -8,13 +8,11 @@ const log = console.log.bind(console);
 
 const cli = meow(`  
 	Usage
-	  $ cli [options] [command] more...
-
-	Commands
-	  add|a      add a task
+	  $ fy params
 
 	Examples
-	  $ node cli 吃饭
+	  $ fy 玩
+	  $ fy play
 `, {
   flags: {
     help: {
@@ -28,5 +26,5 @@ const commands = cli.input;
 if (commands[0]) {
   translate(commands[0]);
 } else {
-  console.log('请输入要查询的单词');
+  log(chalk.red('请输入要查询的单词'));
 }
