@@ -5,6 +5,8 @@
 
 CLI for translation
 
+<div align="center"><img src="https://raw.githubusercontent.com/twoheartliu/node-simple-dict/master/screenshot.png?raw=true" alt="screenShoot" /></div>
+
 
 ## Features
 
