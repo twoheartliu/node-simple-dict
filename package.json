@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/node": "^14.10.1",
+    "meow": "^7.1.1"
+  }
+}
