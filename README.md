@@ -8,7 +8,8 @@ CLI for translation
 
 ## Features
 
-translate chinese to english or english to chinese
+- translate chinese to english or english to chinese in **ONE LINE**
+- supply word or sentence
 
 ## Install
 

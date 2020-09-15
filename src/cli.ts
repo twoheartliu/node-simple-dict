@@ -24,7 +24,10 @@ const cli = meow(`
 const commands = cli.input;
 
 if (commands[0]) {
-  translate(commands[0]);
+  translate(commands.join(' '));
 } else {
-  log(chalk.red('请输入要查询的单词'));
+  log(chalk.red(`
+  请输入要查询的单词或句子
+  please input word or sentence
+  `));
 }
